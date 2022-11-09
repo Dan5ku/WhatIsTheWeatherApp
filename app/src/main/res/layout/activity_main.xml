@@ -8,14 +8,16 @@
 
     <ImageButton
         android:id="@+id/btn_getStockholmWeather"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="16dp"
         android:adjustViewBounds="true"
+        android:backgroundTint="@android:color/transparent"
         android:fontFamily="casual"
         android:includeFontPadding="false"
+        android:padding="10dp"
         android:paddingHorizontal="0dp"
         android:paddingVertical="0dp"
         android:scaleType="centerInside"
@@ -24,18 +26,19 @@
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/btn_getBrazilWeather"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/btn_getBrazilWeather"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
         android:adjustViewBounds="true"
+        android:backgroundTint="@android:color/transparent"
         android:fontFamily="casual"
         android:paddingHorizontal="0dp"
         android:paddingVertical="0dp"
@@ -43,8 +46,8 @@
         android:src="@drawable/_200px_flag_of_brazil_svg"
         android:text="Weather In Brazil"
         android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_getStockholmWeather" />
 
