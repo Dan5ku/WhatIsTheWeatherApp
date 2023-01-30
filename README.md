@@ -1,6 +1,7 @@
 # WhatIsTheWeatherApp
 
-WhatIsTheWeatherApp is simple wether application which takes its data from https://open-meteo.com/en and presents it in simple format.
+WhatIsTheWeatherApp is simple wether application which takes its data from https://open-meteo.com/en and presents it in simple format. The application is build around native android platform.
+
 With this data the application is programmed to show Brazils and Stockholms current weather by clicking the buttons.
 
 The reason this project had Brazils and Stockholms weather information was to demonstrate the difference between the data gathered.
